@@ -47,27 +47,27 @@ check_pid(){
 Download_adbyby(){
 	cd ${file}
 	if [[ ${bit} == "x86_64" ]]; then
-		wget --no-check-certificate -O "adbyby.tar.gz" "http://zgcwkj.github.io/LinuxScript/adbyby/Files/linux.64.tar.gz"
+		wget --no-check-certificate -O "adbyby.tar.gz" "http://zgcwkj.github.io/LinuxScript/DouBi/adbyby/Files/linux.64.tar.gz"
 	else
-		wget --no-check-certificate -O "adbyby.tar.gz" "http://zgcwkj.github.io/LinuxScript/adbyby/Files/linux.86.tar.gz"
+		wget --no-check-certificate -O "adbyby.tar.gz" "http://zgcwkj.github.io/LinuxScript/DouBi/adbyby/Files/linux.86.tar.gz"
 	fi
 	[[ ! -e "adbyby.tar.gz" ]] && echo -e "${Error} ADbyby 下载失败 !" && exit 1
 	tar -xzf adbyby.tar.gz && rm -rf adbyby.tar.gz
 	[[ ! -e "${adbyby_file}" ]] && echo -e "${Error} ADbyby 解压失败 !" && exit 1
 	cd bin
 	chmod 777 adbyby
-	wget -N --no-check-certificate "http://zgcwkj.github.io/LinuxScript/other/adhook.ini"
+	wget -N --no-check-certificate "http://zgcwkj.github.io/LinuxScript/DouBi/other/adhook.ini"
 }
 Service_adbyby(){
 	if [[ ${release} = "centos" ]]; then
-		if ! wget --no-check-certificate http://zgcwkj.github.io/LinuxScript/service/adbyby_centos -O /etc/init.d/adbyby; then
+		if ! wget --no-check-certificate http://zgcwkj.github.io/LinuxScript/DouBi/service/adbyby_centos -O /etc/init.d/adbyby; then
 			echo -e "${Error} ADbyby服务 管理脚本下载失败 !" && exit 1
 		fi
 		chmod +x /etc/init.d/adbyby
 		chkconfig --add adbyby
 		chkconfig adbyby on
 	else
-		if ! wget --no-check-certificate http://zgcwkj.github.io/LinuxScript/service/adbyby_debian -O /etc/init.d/adbyby; then
+		if ! wget --no-check-certificate http://zgcwkj.github.io/LinuxScript/DouBi/service/adbyby_debian -O /etc/init.d/adbyby; then
 			echo -e "${Error} ADbyby服务 管理脚本下载失败 !" && exit 1
 		fi
 		chmod +x /etc/init.d/adbyby

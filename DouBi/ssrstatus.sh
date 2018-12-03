@@ -715,7 +715,7 @@ Install_caddy(){
 		Set_server
 		Set_server_port
 		if [[ ! -e "/usr/local/caddy/caddy" ]]; then
-			wget -N --no-check-certificate http://zgcwkj.github.io/LinuxScript/caddy_install.sh
+			wget -N --no-check-certificate http://zgcwkj.github.io/LinuxScript/DouBi/caddy_install.sh
 			chmod +x caddy_install.sh
 			bash caddy_install.sh install
 			[[ ! -e "/usr/local/caddy/caddy" ]] && echo -e "${Error} Caddy安装失败，请手动部署，Web网页文件位置：${Web_file}" && exit 0
@@ -809,9 +809,9 @@ Del_Crontab(){
 	fi
 }
 Update_Shell(){
-	sh_new_ver=$(wget --no-check-certificate -qO- -t1 -T3 "http://zgcwkj.github.io/LinuxScript/ssrstatus.sh"|grep 'sh_ver="'|awk -F "=" '{print $NF}'|sed 's/\"//g'|head -1) && sh_new_type="github"
+	sh_new_ver=$(wget --no-check-certificate -qO- -t1 -T3 "http://zgcwkj.github.io/LinuxScript/DouBi/ssrstatus.sh"|grep 'sh_ver="'|awk -F "=" '{print $NF}'|sed 's/\"//g'|head -1) && sh_new_type="github"
 	[[ -z ${sh_new_ver} ]] && echo -e "${Error} 无法链接到 Github !" && exit 0
-	wget -N --no-check-certificate "http://zgcwkj.github.io/LinuxScript/ssrstatus.sh" && chmod +x ssrstatus.sh
+	wget -N --no-check-certificate "http://zgcwkj.github.io/LinuxScript/DouBi/ssrstatus.sh" && chmod +x ssrstatus.sh
 	echo -e "脚本已更新为最新版本[ ${sh_new_ver} ] !(注意：因为更新方式为直接覆盖当前运行的脚本，所以可能下面会提示一些报错，无视即可)" && exit 0
 }
 menu(){
