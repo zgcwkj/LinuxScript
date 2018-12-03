@@ -61,7 +61,7 @@
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ss-go.sh && chmod +x ss-go.sh && bash ss-go.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ss-go.sh && chmod +x ss-go.sh && bash ss-go.sh
 ```
 
 ---
@@ -86,7 +86,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ss-go.sh &&
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 ```
 
 ---
@@ -112,7 +112,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssr.sh && c
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 ```
 
 ---
@@ -124,7 +124,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssrmu.sh &&
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/brook.sh && chmod +x brook.sh && bash brook.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/brook.sh && chmod +x brook.sh && bash brook.sh
 ```
 
 ---
@@ -136,7 +136,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/brook.sh &&
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/goflyway.sh && chmod +x goflyway.sh && bash goflyway.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/goflyway.sh && chmod +x goflyway.sh && bash goflyway.sh
 ```
 
 ---
@@ -148,7 +148,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/goflyway.sh
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/lightsocks.sh && chmod +x lightsocks.sh && bash lightsocks.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/lightsocks.sh && chmod +x lightsocks.sh && bash lightsocks.sh
 ```
 
 ---
@@ -160,7 +160,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/lightsocks.
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/daze.sh && chmod +x daze.sh && bash daze.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/daze.sh && chmod +x daze.sh && bash daze.sh
 ```
 
 ---
@@ -172,7 +172,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/daze.sh && 
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
 ```
 
 ---
@@ -184,7 +184,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/mtproxy.sh 
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/mtproxy_go.sh && chmod +x mtproxy_go.sh && bash mtproxy_go.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/mtproxy_go.sh && chmod +x mtproxy_go.sh && bash mtproxy_go.sh
 ```
 
 ---
@@ -199,7 +199,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/mtproxy_go.
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/iptables-pf.sh && chmod +x iptables-pf.sh && bash iptables-pf.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/iptables-pf.sh && chmod +x iptables-pf.sh && bash iptables-pf.sh
 ```
 
 ---
@@ -211,7 +211,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/iptables-pf
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/brook-pf.sh && chmod +x brook-pf.sh && bash brook-pf.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/brook-pf.sh && chmod +x brook-pf.sh && bash brook-pf.sh
 ```
 
 ---
@@ -223,7 +223,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/brook-pf.sh
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/haproxy.sh && chmod +x haproxy.sh && bash haproxy.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/haproxy.sh && chmod +x haproxy.sh && bash haproxy.sh
 ```
 
 ---
@@ -235,7 +235,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/haproxy.sh 
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/socat.sh && chmod +x socat.sh && bash socat.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/socat.sh && chmod +x socat.sh && bash socat.sh
 ```
 
 ---
@@ -247,7 +247,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/socat.sh &&
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/tinymapper.sh && chmod +x tinymapper.sh && bash tinymapper.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/tinymapper.sh && chmod +x tinymapper.sh && bash tinymapper.sh
 ```
 
 ---
@@ -262,7 +262,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/tinymapper.
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/aria2.sh && chmod +x aria2.sh && bash aria2.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/aria2.sh && chmod +x aria2.sh && bash aria2.sh
 ```
 
 ---
@@ -275,7 +275,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/aria2.sh &&
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/cloudt.sh && chmod +x cloudt.sh && bash cloudt.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/cloudt.sh && chmod +x cloudt.sh && bash cloudt.sh
 ```
 
 ---
@@ -288,7 +288,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/cloudt.sh &
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/pserver.sh && chmod +x pserver.sh && bash pserver.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/pserver.sh && chmod +x pserver.sh && bash pserver.sh
 ```
 
 ---
@@ -303,7 +303,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/pserver.sh 
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/bbr.sh && chmod +x bbr.sh && bash bbr.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 ```
 
 ---
@@ -315,7 +315,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/bbr.sh && c
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/status.sh && chmod +x status.sh && bash status.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/status.sh && chmod +x status.sh && bash status.sh
 ```
 
 ---
@@ -327,7 +327,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/status.sh &
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ban_iptables.sh && chmod +x ban_iptables.sh && bash ban_iptables.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ban_iptables.sh && chmod +x ban_iptables.sh && bash ban_iptables.sh
 ```
 
 ---
@@ -339,7 +339,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ban_iptable
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssh_port.sh && chmod +x ssh_port.sh && bash ssh_port.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ssh_port.sh && chmod +x ssh_port.sh && bash ssh_port.sh
 ```
 
 ---
@@ -354,7 +354,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssh_port.sh
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ocserv.sh && chmod +x ocserv.sh && bash ocserv.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ocserv.sh && chmod +x ocserv.sh && bash ocserv.sh
 ```
 
 ---
@@ -369,7 +369,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ocserv.sh &
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/dowsdns.sh && chmod +x dowsdns.sh && bash dowsdns.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/dowsdns.sh && chmod +x dowsdns.sh && bash dowsdns.sh
 ```
 
 ---
@@ -384,14 +384,14 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/dowsdns.sh 
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
  # 安装插件：
  bash caddy_install.sh xxx,xxx
   # 例如同时安装 http.filemanager 和 http.webdav插件：
   bash caddy_install.sh http.filemanager,http.webdav
   # 插件和Caddy是集成在一起的(单个二进制文件)，多个插件必须同时安装。
 # 卸载命令：
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/caddy_install.sh && chmod +x caddy_install.sh && caddy_install.sh uninstall
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/caddy_install.sh && chmod +x caddy_install.sh && caddy_install.sh uninstall
 ```
 
 ---
@@ -403,7 +403,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/caddy_insta
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/pythonhttp.sh && chmod +x pythonhttp.sh && bash pythonhttp.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/pythonhttp.sh && chmod +x pythonhttp.sh && bash pythonhttp.sh
 ```
 
 ---
@@ -418,7 +418,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/pythonhttp.
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/adbyby.sh && chmod +x adbyby.sh && bash adbyby.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/adbyby.sh && chmod +x adbyby.sh && bash adbyby.sh
 ```
 
 ## gfw_push.sh
@@ -429,7 +429,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/adbyby.sh &
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/gfw_push.sh && chmod +x gfw_push.sh && bash gfw_push.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/gfw_push.sh && chmod +x gfw_push.sh && bash gfw_push.sh
 ```
 
 ---
@@ -441,7 +441,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/gfw_push.sh
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/libsodium.sh && chmod +x libsodium.sh && bash libsodium.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/libsodium.sh && chmod +x libsodium.sh && bash libsodium.sh
 ```
 
 ---
@@ -453,7 +453,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/libsodium.s
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssr_check.sh && chmod +x ssr_check.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ssr_check.sh && chmod +x ssr_check.sh
 ```
 
 ---
@@ -465,7 +465,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssr_check.s
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssrstatus.sh && chmod +x ssrstatus.sh && bash ssrstatus
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ssrstatus.sh && chmod +x ssrstatus.sh && bash ssrstatus
 ```
 
 ---
@@ -477,7 +477,7 @@ wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssrstatus.s
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/ssr_ip_check.sh && chmod +x ssr_ip_check.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/ssr_ip_check.sh && chmod +x ssr_ip_check.sh
 ```
 
 ---
@@ -501,7 +501,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/pipesocks/insta
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://github.com/zgcwkj/Linux-DouBi/gogo.sh && chmod +x gogo.sh && bash gogo.sh
+wget -N --no-check-certificate https://zgcwkj.github.io/LinuxScript/gogo.sh && chmod +x gogo.sh && bash gogo.sh
 ```
 
 ---
