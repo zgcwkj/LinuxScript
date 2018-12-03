@@ -83,14 +83,14 @@ Download_pipes(){
 }
 Service_pipes(){
 	if [[ ${release} = "centos" ]]; then
-		if ! wget --no-check-certificate http://zgcwkj.top/linux/service/pipes_centos -O /etc/init.d/pipes; then
+		if ! wget --no-check-certificate http://zgcwkj.github.io/LinuxScript/service/pipes_centos -O /etc/init.d/pipes; then
 			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !" && exit 1
 		fi
 		chmod +x /etc/init.d/pipes
 		chkconfig --add pipes
 		chkconfig pipes on
 	else
-		if ! wget --no-check-certificate http://zgcwkj.top/linux/service/pipes_debian -O /etc/init.d/pipes; then
+		if ! wget --no-check-certificate http://zgcwkj.github.io/LinuxScript/service/pipes_debian -O /etc/init.d/pipes; then
 			echo -e "${Error} ShadowsocksR服务 管理脚本下载失败 !" && exit 1
 		fi
 		chmod +x /etc/init.d/pipes
