@@ -1,9 +1,11 @@
-# Linux 常用脚本
+# 仓库位置
+
+> [https://github.com/zgcwkj/LinuxScript](https://github.com/zgcwkj/LinuxScript)
 
 ### 宝塔面板
 
-> [https://github.com/zgcwkj/LinuxScript/BtWebPanel](https://github.com/zgcwkj/LinuxScript/BtWebPanel)
+> [https://zgcwkj.github.io/LinuxScript/BtWebPanel](https://zgcwkj.github.io/LinuxScript/BtWebPanel)
 
 ### 逗比脚本
 
-> [https://github.com/zgcwkj/LinuxScript/DouBi](https://github.com/zgcwkj/LinuxScript/DouBi)
+> [https://zgcwkj.github.io/LinuxScript/DouBi](https://zgcwkj.github.io/LinuxScript/DouBi)
