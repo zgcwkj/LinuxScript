@@ -1,0 +1,6 @@
+*.js linguist-language=python
+*.css linguist-language=python
+*.html linguist-language=python
+*.sh linguist-language=python
+*.zip linguist-language=python
+*.gz linguist-language=python
