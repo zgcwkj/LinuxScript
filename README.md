@@ -9,3 +9,7 @@
 ### 逗比脚本
 
 > [https://zgcwkj.github.io/LinuxScript/DouBi](https://zgcwkj.github.io/LinuxScript/DouBi)
+
+### Gost脚本
+
+> [https://zgcwkj.github.io/LinuxScript/Gost](https://zgcwkj.github.io/LinuxScript/Gost)
