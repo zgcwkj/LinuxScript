@@ -13,3 +13,7 @@
 ### Gost脚本
 
 > [https://zgcwkj.github.io/LinuxScript/Gost](https://zgcwkj.github.io/LinuxScript/Gost)
+
+### V2ray脚本
+
+> [https://zgcwkj.github.io/LinuxScript/V2ray](https://zgcwkj.github.io/LinuxScript/V2ray)
