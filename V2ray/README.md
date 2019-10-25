@@ -2,6 +2,10 @@
 
 > bash <(curl -L -s https://install.direct/go.sh)
 
+# 配置文件：
+
+> https://zgcwkj.github.io/LinuxScript/V2ray/config.json
+
 # 重启：
 
 > systemctl restart v2ray
