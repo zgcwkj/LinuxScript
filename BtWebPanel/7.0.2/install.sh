@@ -11,11 +11,11 @@ Red_Error(){
 
 is64bit=$(getconf LONG_BIT)
 if [ "${is64bit}" != '64' ];then
-	Red_Error "抱歉, 6.0不支持32位系统, 请使用64位系统或安装宝塔5.9!";
+	Red_Error "抱歉, 7.0不支持32位系统, 请使用64位系统或安装宝塔5.9!";
 fi
 isPy26=$(python -V 2>&1|grep '2.6.')
 if [ "${isPy26}" ];then
-	Red_Error "抱歉, 6.0不支持Centos6.x,请安装Centos7或安装宝塔5.9";
+	Red_Error "抱歉, 7.0不支持Centos6.x,请安装Centos7或安装宝塔5.9";
 fi
 Install_Check(){
 	while [ "$yes" != 'yes' ] && [ "$yes" != 'n' ]
@@ -156,7 +156,7 @@ Install_RPM_Pack(){
 	yumBaseUrl=$(cat /etc/yum.repos.d/CentOS-Base.repo|grep baseurl=http|cut -d '=' -f 2|cut -d '$' -f 1|head -n 1)
 	[ "${yumBaseUrl}" ] && checkYumRepo=$(curl --connect-timeout 5 --head -s -o /dev/null -w %{http_code} ${yumBaseUrl})	
 	if [ "${checkYumRepo}" != "200" ];then
-		curl -Ss --connect-timeout 3 -m 60 http://zgcwkj.github.io/LinuxScript/BtWebPanel/7.0.2/install/yumRepo_select.sh|bash
+		curl -Ss --connect-timeout 3 -m 60 ${download_Url}/install/yumRepo_select.sh|bash
 	fi
 	
 	#尝试同步时间(从bt.cn)
@@ -269,7 +269,7 @@ Install_Bt(){
 
 	wget -O panel.zip ${download_Url}/install/src/panel7.zip -T 10
 	wget -O /etc/init.d/bt ${download_Url}/install/src/bt7.init -T 10
-	wget -O /www/server/panel/install/public.sh http://zgcwkj.github.io/LinuxScript/BtWebPanel/7.0.2/install/public.sh -T 10
+	wget -O /www/server/panel/install/public.sh ${download_Url}/install/public.sh -T 10
 
 	if [ -f "${setup_path}/server/panel/data/default.db" ];then
 		if [ -d "/${setup_path}/server/panel/old_data" ];then
@@ -310,7 +310,7 @@ Install_Bt(){
 	echo "${panelPort}" > ${setup_path}/server/panel/data/port.pl
 }
 Install_Pip(){
-	curl -Ss --connect-timeout 3 -m 60 http://zgcwkj.github.io/LinuxScript/BtWebPanel/7.0.2/install/pip_select.sh|bash
+	curl -Ss --connect-timeout 3 -m 60 ${download_Url}/install/pip_select.sh|bash
 	isPip=$(pip -V|grep python)
 	if [ -z "${isPip}" ];then
 		wget -O get-pip.py ${download_Url}/src/get-pip.py
@@ -575,9 +575,9 @@ Install_Main(){
 
 echo "
 +----------------------------------------------------------------------
-| Bt-WebPanel 6.0 FOR CentOS/Ubuntu/Debian
+| Bt-WebPanel 7.0.2 FOR CentOS/Ubuntu/Debian
 +----------------------------------------------------------------------
-| Copyright © 2015-2099 BT-SOFT(http://www.bt.cn) All rights reserved.
+| Copyright © 2015-2019 BT-SOFT(http://www.bt.cn) All rights reserved.
 +----------------------------------------------------------------------
 | The WebPanel URL will be http://SERVER_IP:8888 when installed.
 +----------------------------------------------------------------------

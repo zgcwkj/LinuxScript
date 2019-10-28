@@ -46,7 +46,7 @@ get_Yum_Repo(){
 		elif [ $(echo $yumRepo|grep '163') ];then
 			wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-Base-163.repo
 		elif [ $(echo $yumRepo|grep 'tsinghua') ];then
-			wget -O /etc/yum.repos.d/CentOS-Base.repo http://zgcwkj.github.io/LinuxScript/BtWebPanel/7.0.2/mirrors/repo/Centos7-Base-thu.repo
+			wget -O /etc/yum.repos.d/CentOS-Base.repo http://download.bt.cn/mirrors/repo/Centos7-Base-thu.repo
 		fi
 		yum makecache
 	fi
