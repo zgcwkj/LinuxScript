@@ -17,3 +17,7 @@
 ### V2ray脚本
 
 > [https://zgcwkj.github.io/LinuxScript/V2ray](https://zgcwkj.github.io/LinuxScript/V2ray)
+
+### Vpstest脚本
+
+> [https://zgcwkj.github.io/LinuxScript/Vpstest](https://zgcwkj.github.io/LinuxScript/Vpstest)
