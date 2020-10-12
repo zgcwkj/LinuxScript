@@ -12,6 +12,6 @@
 
 > wget https://zgcwkj.github.io/LinuxScript/BtWebPanel/6.9.6/install.sh;bash install.sh;rm -f install.sh
 
-#### 安装 7.0.2 版脚本
+#### 安装 7.0.2 版脚本（有问题）
 
 > wget https://zgcwkj.github.io/LinuxScript/BtWebPanel/7.0.2/install.sh;bash install.sh;rm -f install.sh
