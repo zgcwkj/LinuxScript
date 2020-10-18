@@ -363,7 +363,8 @@ Install_Python_Lib(){
 	cd /www
 	python_src='/www/python_src.tar.xz'
 	python_src_path="/www/Python-${py_version}"
-	wget -O $python_src $download_Url/src/Python-${py_version}.tar.xz -T 5
+	wget -O $python_src http://download.bt.cn/src/Python-${py_version}.tar.xz -T 5
+	# wget -O $python_src $download_Url/src/Python-${py_version}.tar.xz -T 5
 	tmp_size=$(du -b $python_src|awk '{print $1}')
 	if [ $tmp_size -lt 10703460 ];then
 		rm -f $python_src
