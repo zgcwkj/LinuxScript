@@ -18,6 +18,6 @@
 
 > rm -f install.sh;wget https://zgcwkj.github.io/LinuxScript/BtWebPanel/7.0.2/install.sh;bash install.sh
 
-#### 安装 7.4.5 版脚本（无效）
+#### 安装 7.4.5 版脚本
 
 > rm -f install.sh;wget https://zgcwkj.github.io/LinuxScript/BtWebPanel/7.4.5/install.sh;bash install.sh
