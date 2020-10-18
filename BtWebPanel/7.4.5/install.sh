@@ -157,7 +157,7 @@ Install_RPM_Pack(){
 	yumBaseUrl=$(cat /etc/yum.repos.d/CentOS-Base.repo|grep baseurl=http|cut -d '=' -f 2|cut -d '$' -f 1|head -n 1)
 	[ "${yumBaseUrl}" ] && checkYumRepo=$(curl --connect-timeout 5 --head -s -o /dev/null -w %{http_code} ${yumBaseUrl})	
 	if [ "${checkYumRepo}" != "200" ];then
-		curl -Ss --connect-timeout 3 -m 60 https://zgcwkj.github.io/LinuxScript/BtWebPanel/7.4.5/install/yumRepo_select.sh|bash
+		curl -Ss --connect-timeout 3 -m 60 http://download.bt.cn/install/yumRepo_select.sh|bash
 	fi
 	
 	#尝试同步时间(从bt.cn)
