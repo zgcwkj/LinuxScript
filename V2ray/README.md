@@ -1,16 +1,11 @@
 # 安装：
 
-``bash <(curl -L -s https://install.direct/go.sh)``
+> rm -f install.sh;wget https://zgcwkj.github.io/LinuxScript/V2ray/install.sh;bash install.sh
 
 # 命令：
 
 ```
-重启：
-systemctl restart v2ray
-启动：
-systemctl start v2ray
-停止：
-systemctl stop v2ray
+v2ray
 ```
 
 # 配置文件：
@@ -20,3 +15,8 @@ systemctl stop v2ray
 # 配置文件生成：
 
 > https://intmainreturn0.com/v2ray-config-gen
+
+# 注意当报关键字“775”，执行以下命令
+
+> chmod 775 /var/run/screen
+
