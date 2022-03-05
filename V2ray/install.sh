@@ -29,12 +29,12 @@ then
     wget "https://zgcwkj.github.io/LinuxScript/V2ray/v2ray-linux-64.zip"
     unzip v2ray-linux-64.zip -d /usr/local/v2ray
     chmod 777 /usr/local/v2ray/*
-    chmod 777 /var/run/screen
+    chmod 777 /var/run/screen/*
     
     cp $0 /usr/local/v2ray/hcaas.sh
     
     #创建快捷方式
-    ln -s /usr/local/v2ray/hcaas.sh /usr/local/sbin/v2ray
+    ln -sf /usr/local/v2ray/hcaas.sh /usr/local/sbin/v2ray
     chmod 777 /usr/local/sbin/v2ray
     
     rm -rf v2ray-linux-64.zip
