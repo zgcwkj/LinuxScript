@@ -1,3 +1,9 @@
+# 建议使用安装：
+
+> bash <(curl -s -L https://git.io/v2ray.sh)
+
+# 旧
+
 # 安装：
 
 > rm -f install.sh;wget https://zgcwkj.github.io/LinuxScript/V2ray/install.sh;bash install.sh
